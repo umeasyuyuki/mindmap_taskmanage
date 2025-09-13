@@ -1,7 +1,7 @@
-import React from 'react';
-
-const MindMapCanvas: React.FC = () => {
-  return <div className="p-4">MindMap Canvas Placeholder</div>;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var react_1 = require("react");
+var MindMapCanvas = function () {
+    return <div className="p-4">MindMap Canvas Placeholder</div>;
 };
-
-export default MindMapCanvas;
+exports.default = MindMapCanvas;

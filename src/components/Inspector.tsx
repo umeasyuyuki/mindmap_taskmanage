@@ -1,7 +1,7 @@
-import React from 'react';
-
-const Inspector: React.FC = () => {
-  return <aside className="w-64 p-4 bg-black/20">Inspector Placeholder</aside>;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var react_1 = require("react");
+var Inspector = function () {
+    return <aside className="w-64 p-4 bg-black/20">Inspector Placeholder</aside>;
 };
-
-export default Inspector;
+exports.default = Inspector;

@@ -1,7 +1,7 @@
-import React from 'react';
-
-const CommandPalette: React.FC = () => {
-  return <div className="p-4">Command Palette Placeholder</div>;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var react_1 = require("react");
+var CommandPalette = function () {
+    return <div className="p-4">Command Palette Placeholder</div>;
 };
-
-export default CommandPalette;
+exports.default = CommandPalette;

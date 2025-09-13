@@ -1,11 +1,10 @@
-import React from 'react';
+import React from 'react'
 
-const App: React.FC = () => {
+export default function App() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white flex items-center justify-center">
-      <h1 className="text-4xl font-bold">NeonMind Tasks</h1>
+    <div style={{ padding: 24, color: 'white', background: '#111', minHeight: '100vh' }}>
+      <h1 style={{ fontSize: 28, marginBottom: 8 }}>NeonMind Tasks</h1>
+      <p>Vite + React + TypeScript 起動OK</p>
     </div>
-  );
-};
-
-export default App;
+  )
+}

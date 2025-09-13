@@ -1,7 +1,7 @@
-import React from 'react';
-
-const NodeToolbar: React.FC = () => {
-  return <div className="p-1">Node Toolbar Placeholder</div>;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var react_1 = require("react");
+var NodeToolbar = function () {
+    return <div className="p-1">Node Toolbar Placeholder</div>;
 };
-
-export default NodeToolbar;
+exports.default = NodeToolbar;

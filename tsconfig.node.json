@@ -2,18 +2,6 @@
   "compilerOptions": {
     "composite": true,
     "module": "ESNext",
-    "moduleResolution": "bundler",   // ← ここを変更
-    "allowSyntheticDefaultImports": true,
-    "skipLibCheck": true,
-    "lib": ["ES2020", "DOM", "DOM.Iterable", "WebWorker"],
-    "types": ["node"]
-  },
-  "include": ["vite.config.ts"]
-}
-{
-  "compilerOptions": {
-    "composite": true,
-    "module": "ESNext",
     "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
