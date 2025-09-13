@@ -59,9 +59,7 @@ Node {
 3. **依存関係をインストール**
    - コマンド: `npm install`
 4. **テストを実行して確認**
-   - コマンド: `npm test` （Vitest を利用）
-   - `1 passed` のような表示が出れば成功です。
-   - `No test suite found` などのエラーが出た場合は、テストファイルに `describe` や `it` が書かれているか確認してください。
+
 5. **開発サーバーを起動**
    - コマンド: `npm run dev`
    - `http://localhost:5173` のような URL が表示されます。
